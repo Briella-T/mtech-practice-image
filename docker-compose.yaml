@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  mtech-practice-service:
+    image: mtech-practice-image
+    ports:
+      - "3000:8080"
+    deploy:
+      replicas: 3
+  mtech-practice-second-service:
+    image: mtech-practice-image
+    ports:
+      - "3001:8080"
+    deploy:
+      replicas: 2
