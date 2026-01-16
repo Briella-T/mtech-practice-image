@@ -1,0 +1,12 @@
+{
+  "name": "mtech-practice-image",
+  "version": "1.0.0",
+  "description": "A Docker image practice for Mtech project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Briella Thompson",
+  "license": "MIT",
+  "dependencies": {}
+}
